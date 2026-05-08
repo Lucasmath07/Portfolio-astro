@@ -1,0 +1,42 @@
+---
+import Button from "./Button.astro";
+import Project from "./Single-project.astro";
+---
+
+<section class="last-projects" id="last-projects">
+  <div class="projects-title">
+    <div class="title-container">
+      <p class="main-title">LATEST PROJECTS</p>
+      <a href="https://github.com/Lucasmath07?tab=repositories" target="_blank">
+        <Button text="See all projects" variantClass="see-projects-button" />
+      </a>
+    </div>
+    <p class="sub-title">Check out some of my latest projects</p>
+  </div>
+  <div class="main-projects">
+    <Project
+      name="THIS PORTFOLIO"
+      text=" A responsive personal portfolio built entirely from scratch to
+          showcase my projects and skills. Developed using semantic HTML5, CSS3,
+          and JavaScript, featuring a custom Light/Dark mode."
+      image="project-1.png"
+      tech_img="html-css-js-image.png"
+      github_link="https://github.com/Lucasmath07/personal-portfolio.git"
+      youtube_link="https://youtu.be/_U07YBa0AU4"
+      reversed = {true}
+    />  
+    <Project
+      name="SNAZE"
+      text="Developed for the Programming Language I course, Snaze is an
+          autonomous recreation of the classic Snake game running in the
+          terminal. Built with C++, the project focuses on implementing search
+          algorithms (BFS and DFS)."
+      image="projeto2.png"
+      tech_img="cpp.png"
+      github_link="https://github.com/Lucasmath07/Snaze-game-P1"
+      youtube_link="https://youtu.be/Ik3M2ueWBAQ"
+      reversed = {false}
+    />
+  </div>
+  <Button text="See all projects" variantClass="see-projects-button-bottom" />
+</section>

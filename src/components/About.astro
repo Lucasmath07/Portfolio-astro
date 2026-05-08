@@ -1,0 +1,70 @@
+<section class="about" id="about">
+  <div class="about-title">
+    <p class="main-title">ABOUT ME</p>
+    <p class="bar">|</p>
+    <p class="sub-title">Just a little about my carreer</p>
+  </div>
+  <div class="about-content">
+    <div class="descricao">
+      <p class="main-title">HI, I’M LUCAS</p>
+      <p class="sub-title">COMPUTER SCIENCE STUDENT</p>
+      <p class="hero-descricao">
+        Hi, I’m Lucas, and I am a Computer Science student at UFRN. Before
+        diving into software, I graduated from IFRN with a technical degree in
+        Mechatronics, which gave me a strong foundation in logic, systems, and
+        problem-solving. I enjoy building interactive web experiences using
+        HTML, CSS and JavaScript. Currently, I am a developer at PotiCode, a
+        Junior Enterprise at UFRN, where I collaborate with a team to build
+        landing pages and professional institutional websites.
+      </p>
+      <p></p>
+    </div>
+    <div class="fotos-container">
+      <div class="fotos">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="swipper-image1.png" alt="" />
+              <div class="mobile-about-text">
+                <p>
+                  Hi, I’m Lucas, and I am a Computer Science student at UFRN.
+                  Before diving into software, I graduated from IFRN with a
+                  technical degree in Mechatronics
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="swipper-image2.png" alt="" />
+              <div class="mobile-about-text">
+                <p>
+                  I enjoy building interactive web experiences using HTML, CSS
+                  and JavaScript.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="swipper-image3.jpeg" alt="" />
+              <div class="mobile-about-text">
+                <p>
+                  Currently, I am a developer at PotiCode, a Junior Enterprise
+                  at UFRN, where I collaborate with a team to build landing
+                  pages and professional institutional websites.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script is:inline src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    
+    <script is:inline>
+      let swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+      console.log("Swiper ativado!");
+    </script>

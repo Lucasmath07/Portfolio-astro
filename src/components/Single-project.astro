@@ -1,0 +1,28 @@
+---
+const { name, text, image, tech_img, github_link, youtube_link, reversed = false } = Astro.props;
+---
+
+<article class=`project  ${reversed ? 'reversed' : ''}`>
+  <div class="project-images">
+    <img class="project-2" src={image} alt="" />
+  </div>
+  <div class="project-description">
+    <div class="project-description-title">{name}</div>
+    <div class="project-description-text">
+      {text}
+    </div>
+    <div class="technologies-used">
+      <img src={tech_img} alt="" />
+    </div>
+    <div class="acess">
+      <a href={github_link} class="git-link" target="_blank"
+        ><img src="github-logo.png" alt="Github link" />Code</a
+      >
+      <a href={youtube_link} class="youtube-link" target="_blank"
+        ><img src="youtube-logo.png" alt="Youtube link" />Video</a
+      >
+    </div>
+  </div>
+</article>
+<script>
+</script>

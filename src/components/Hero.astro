@@ -1,0 +1,30 @@
+---
+import Button from "./Button.astro";
+import '../styles/components.css'
+---
+
+<section class="hero" id="home">
+  <div class="foto">
+    <img src="hero-image3.png" alt="lucas" />
+  </div>
+  <div class="descricao">
+    <p class="hero-title">LUCAS ROCHA</p>
+    <p class="hero-category">COMPUTER SCIENCE STUDENT</p>
+    <p class="hero-descricao">
+      Hi, I’m Lucas and I am a Computer Science student at UFRN. Transforming
+      lines of code into practical solutions. Experienced in HTML/CSS/JS for
+      interactive web experiences.
+    </p>
+    <div class="hero-botoes">
+      <a href="https://github.com/Lucasmath07?tab=repositories" target="_blank">
+        <Button text="See My Projects" variantClass="see-projects-button" />
+      </a>
+      <a href="#contact-me"
+        ><Button text="Contact Me" variantClass="contact-button" /></a
+      >
+      <a href="https://lattes.cnpq.br/4260883519204125" target="_blank">
+        <Button text="Download CV" variantClass="download-cv-button" />
+      </a>
+    </div>
+  </div>
+</section>
