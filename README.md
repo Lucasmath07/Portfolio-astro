@@ -2,7 +2,7 @@
 
 > Um portfólio responsivo e moderno construído do zero para exibir meus projetos, habilidades e trajetória acadêmica e profissional.
 
-🌐 **[Acesse o Portfólio Online Aqui](COLOQUE_SEU_LINK_DE_DEPLOY_AQUI)**
+🌐 **[Acesse o Portfólio Online Aqui](https://lucasmath07.github.io/Portfolio-astro/)**
 
 ## 🌟 Funcionalidades
 
